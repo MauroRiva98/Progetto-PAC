@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MalattiaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Richiesta Malattia" />
+
+    <EditText
+        android:id="@+id/start_malattia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:hint="Seleziona giorno inizio"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <EditText
+        android:id="@+id/end_malattia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:hint="Seleziona giorno fine"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button
+        android:id="@+id/btn_request_malattia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="400dp"
+        android:minHeight="45dp"
+        android:padding="10dp"
+        android:text="Invia richiesta" />
+
+</FrameLayout>

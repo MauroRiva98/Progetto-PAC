@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_turni"
+        android:icon="@drawable/ic_outline_filter_tilt_shift_24"
+        android:title="Turni"></item>
+
+    <item
+        android:id="@+id/nav_ferie"
+        android:icon="@drawable/ic_outline_card_travel_24"
+        android:title="Ferie"></item>
+
+    <item
+        android:id="@+id/nav_malattia"
+        android:icon="@drawable/ic_outline_sick_24"
+        android:title="Malattia"></item>
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_outline_account_circle_24"
+        android:title="Account"></item>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_call_missed_outgoing_24"
+        android:title="Logout"></item>
+
+</menu>

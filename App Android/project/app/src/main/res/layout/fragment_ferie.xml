@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FerieFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Richiesta Ferie" />
+
+    <EditText
+        android:id="@+id/data_inizio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:hint="Seleziona giorno inizio"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <EditText
+        android:id="@+id/data_fine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:hint="Seleziona giorno fine"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <ScrollView
+        android:id="@+id/contain_descrizione"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_descrizione"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:hint="Inserisci una descrizione"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginHorizontal="50dp"
+        android:padding="10dp"
+        android:text="Invia richiesta"
+        />
+
+</FrameLayout>

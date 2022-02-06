@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">pacProject</string>
+    <string name="title_activity_bottom_menu">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- DATI UTENTE E AZIENDA NELLA SESSIONE -->
+    <string name="SHARED_PREFS">SESSION_USER</string>
+    <string name="SESSION_TOKEN">USER_TOKEN</string>
+    <string name="SESSION_IP">USER_TOKEN</string>
+    <string name="RESULT_LOGOUT">RES_LOGOUT</string>
+    <string name="session_emailUtente">EMAIL_USER</string>
+    <string name="session_idUtente">ID_USER</string>
+    <string name="session_idAzienda">ID_AZIENDA</string>
+    <string name="session_ragioneSociale">RAGIONE_SOCIALE_AZIENDA</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

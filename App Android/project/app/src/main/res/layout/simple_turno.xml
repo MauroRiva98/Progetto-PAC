@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="15dp"
+    android:paddingHorizontal="5dp">
+
+    <TextView
+        android:id="@+id/data_turno"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/design_default_color_error"
+        android:hint="DATA TURNO"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="13dp"
+        android:layout_marginLeft="10dp"
+        android:text="INIZIO Turno:"
+        />
+
+    <TextView
+        android:id="@+id/start_turno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="13dp"
+        android:hint="ora_inizio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="13dp"
+        android:text="FINE Turno:"
+        />
+
+    <TextView
+        android:id="@+id/end_turno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="260dp"
+        android:textSize="13dp"
+        android:hint="ora_fine"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="13dp"
+        android:text="RUOLO:"
+        />
+
+    <TextView
+        android:id="@+id/ruolo_turno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:id="@+id/isStraordinario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="105dp"
+        android:textColor="@color/purple_200"
+        android:textSize="13dp" />
+
+
+    <TextView
+        android:id="@+id/isTrasferta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="190dp"
+        android:textSize="13dp"
+        android:textColor="@color/purple_200"
+        />
+
+    <TextView
+        android:id="@+id/address_turno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="15dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
+        android:hint="ADDRESS"
+        android:textSize="13dp"
+        />
+
+</FrameLayout>

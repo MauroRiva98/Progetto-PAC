@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TurniFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:text="SELEZIONA UN GIORNO:" />
+
+    <EditText
+        android:id="@+id/txt_data"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Seleziona un giorno"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button
+        android:id="@+id/btn_showTurni"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:text="vedi turni della settimana" />
+
+</FrameLayout>
